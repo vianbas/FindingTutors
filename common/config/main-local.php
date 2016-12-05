@@ -3,12 +3,13 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-          'dsn' => 'mysql:host=ap-cdbr-azure-east-c.cloudapp.net;dbname=batak',
+//          'dsn' => 'mysql:host=ap-cdbr-azure-east-c.cloudapp.net;dbname=batak',
+            'dsn' => 'mysql:host=ap-cdbr-azure-southeast-b.cloudapp.net;dbname=findingtutor_db',
 //            'dsn' => 'mysql:host=localhost;dbname=findtutor',
-//            'username' => 'root',
-//           'password' => '',           
-            'username' => 'ba18dc2bb1a798',
-            'password' => 'd4693502',
+            'username' => 'b59a915b1120d1',
+            'password' => '8abed81a',           
+//            'username' => 'ba18dc2bb1a798',
+//            'password' => 'd4693502',
             'charset' => 'utf8',
         ],
         'mailer' => [
