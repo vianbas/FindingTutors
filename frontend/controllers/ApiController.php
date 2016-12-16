@@ -65,4 +65,11 @@ class ApiController extends ActiveController
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         return $dataProvider;
     }
+    
+    public function actionGetProdi(){
+        $searchModel = new ProdiSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        return $dataProvider;
+    }
+    
 }
